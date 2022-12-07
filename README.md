@@ -20,24 +20,24 @@
 **Tower Status**
 Lv | Probability | Attack | Range
 -- | ----------- | ------ | -----
-Lv1 | 50% | 5 | 4 Tiles
-Lv2 | 45% | 10 | 6 Tiles
-Lv3 | 4% | 30 | 8 Tiles
+Lv1 | 60% | 5 | 4 Tiles
+Lv2 | 34% | 10 | 6 Tiles
+Lv3 | 5% | 30 | 8 Tiles
 Lv4 | 1% | 50 | All
 
 **Monster Status**
 Round | Hp
 ----- | --
-1 | 50
-2 |
-3 |
-4 |
-5 |
-6 |
-7 |서 
-8 |
-9 |
-10 |
+1 | 60
+2 | 90
+3 | 140
+4 | 210
+5 | 300
+6 | 410
+7 | 540
+8 | 690
+9 | 860
+10 | 1050
 
 ### 
 
