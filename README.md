@@ -1,6 +1,11 @@
 ## Random Tower Defense
 ### Basic Information
-* 21101237 Han Jeong Hyeon
+* 컴퓨터공학과 21101237 한정현
+* Open-Source를 활용한 디펜스 게임
+
+### Prerequisite
+* 파이썬 개발 환경
+* Pygame, math, random packages
 
 ### How To Play
 * 게임의 목표는 타워를 설치해 몬스터가 목표 지점에 도달하기 전에 섬멸시키는 것입니다.
@@ -15,8 +20,9 @@
   * Buy : :yellow_circle:50 Gold를 지불해 랜덤한 타워를 건설합니다. Buy 버튼을 클릭한 후 건설가능한 곳을 클릭하면 해당 지역에 타워가 건설됩니다. 타워의 능력치는 오른쪽 하단에 표기되며 더 자세한 정보는 아래 표에서 확인 가능합니다.
   * Sell : 자신이 소유한 타워를 매각하고 건설 비용의 50%인 :yellow_circle:25 Gold를 돌려받습니다. Sell 버튼을 클릭한 후 보유중인 타워를 클릭하면 해당 타워가 매각됩니다.
   * Cancel : Buy과 Sell의 행동을 취소합니다. Buy 버튼을 클릭하거나 Sell 버튼을 클릭했을 때 해당 행동을 원하지 않는 경우 Cancel 버튼을 눌러 취소할 수 있습니다.
-* 
-### About Game
+* 게임이 종료되면 화면에 점수를 표기합니다. 종료 시점의 Gold와 Life는 각각 1점 20점으로 환산됩니다.
+
+### Details About Game
 **Tower Status**
 Lv | Probability | Attack | Range
 -- | ----------- | ------ | -----
@@ -44,7 +50,7 @@ Round | Hp
 ### Reference
 * 화면 오른쪽 버튼을 구현하기 위하여 아래 자료를 참고하였습니다.
   * https://blog.naver.com/jwjung0907/222207701304
-* 본 프로젝트에서 사용한 모든 이미지는 [OpenGameArt](https://opengameart.org/)에서 제공하고 있습니다. 각 이미지에 대한 정보는 아래 링크에서 확인할 수 있습니다.
+* 본 프로젝트에서 사용한 모든 이미지의 출처는 [OpenGameArt](https://opengameart.org/)에 있습니다. 각 이미지에 대한 정보는 아래 링크에서 확인할 수 있습니다.
   * [BackGround](https://opengameart.org/content/grass-textures-tiles)
   * [Tower]()
   * [Monster]()
