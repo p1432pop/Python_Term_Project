@@ -22,7 +22,10 @@
   * Cancel : Buy과 Sell의 행동을 취소합니다. Buy 버튼을 클릭하거나 Sell 버튼을 클릭했을 때 해당 행동을 원하지 않는 경우 Cancel 버튼을 눌러 취소할 수 있습니다.
 * 게임이 종료되면 화면에 점수를 표기합니다. 종료 시점의 Gold와 Life는 각각 1점 20점으로 환산됩니다.
 
-### Details About Game
+타워 설치 가능 블록 <img src="image/grass.png" alt="grass" width="5%">
+
+몬스터가 이동하는 블록 <img src="image/ground.png" alt="ground" width="5%">
+
 **Tower Status**
 Lv | Probability | Attack | Range
 -- | ----------- | ------ | -----
@@ -52,12 +55,12 @@ Round | Hp
   * https://blog.naver.com/jwjung0907/222207701304
 * 본 프로젝트에서 사용한 모든 이미지의 출처는 [OpenGameArt](https://opengameart.org/)에 있습니다. 각 이미지에 대한 정보는 아래 링크에서 확인할 수 있습니다.
   * [BackGround](https://opengameart.org/content/grass-textures-tiles)
-  * [Tower]()
-  * [Monster]()
-  * [Gold]()
-  * [Life]()
-  * [Attack Motion]()
-  * [Tower Information]()
+  * [Tower](https://opengameart.org/content/stone-tower-defense-game-art)
+  * [Monster](https://opengameart.org/content/monster-2d-sprites-game)
+  * [Gold](https://opengameart.org/content/coin-icon)
+  * [Life](https://opengameart.org/content/pixel-items-1)
+  * [Attack Motion](https://opengameart.org/content/bubble-explosion)
+  * [Tower Information](https://opengameart.org/content/zeta-engine-ability-icons-part1)
 
 ### LICENSE
 * Pygame is an open-source library licensed under the [GNU LGPL LICENSE v2.1](https://www.pygame.org/docs/LGPL.txt).
