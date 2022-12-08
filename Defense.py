@@ -3,7 +3,8 @@ import math
 import random
 
 Default_font = 'arial'
-Display_Width = 800
+# Default_font = 'freesansbold'
+Display_Width = 805
 Display_Height = 600
 Block_Size = 40
 fps = 60
@@ -224,7 +225,7 @@ def draw_map():
     coin = pygame.transform.scale(coin, (Block_Size-15,Block_Size-15))
     myscreen.blit(heart, (600, 0))
     myscreen.blit(coin, (705, 6))
-    myscreen.blit(coin, (745, 109))
+    myscreen.blit(coin, (745, 107))
     myscreen.blit(coin, (745, 179))
     FONT = pygame.font.SysFont(Default_font, 25)
     Life = FONT.render(str(life), True, BLACK)
@@ -243,7 +244,7 @@ def draw_map():
     Text8 = FONT.render('6', True, BLACK)
     Text9 = FONT.render('8', True, BLACK)
     Text10 = FONT.render('Max', True, BLACK)
-    myscreen.blit(Text1, (710, 109))
+    myscreen.blit(Text1, (710, 107))
     myscreen.blit(Text2, (710, 177))
     myscreen.blit(Text3, (682, 305))
     myscreen.blit(Text4, (682, 385))
@@ -296,20 +297,22 @@ def pygame_mainloop():
     Button2 = button((650, 190), (80, 40), 'Sell')
     Button3 = button((650, 260), (80, 40), 'Cancel')
     running = True
+    running1 = True
     buy = False
     sell = False
     result = True
     while running:
         dt = clock.tick(fps)
         remove = 0
+        if life<=0:
+            running=False
+            result=False
+            break
         for event in pygame.event.get():
             xpos, ypos = pygame.mouse.get_pos()
             if event.type==pygame.QUIT:
                 running=False
-            if life<=0:
-                running=False
-                result=False
-                break
+                running1=False
             if event.type==pygame.MOUSEBUTTONDOWN and event.button==1 and buy and not sell:
                 if xpos<=600 and ypos<=600 and map_tower[ypos//40][xpos//40]==0:
                     buy=False
@@ -426,17 +429,16 @@ def pygame_mainloop():
                 enemy_list.pop(index)
                 remove+=1
         pygame.display.update()
-    running = True
     FONT = pygame.font.SysFont(Default_font, 25)
     if result:
         Result = FONT.render('  Clear  ', True, BLACK)
     else:
         Result = FONT.render('Game Over', True, BLACK)
     Life = FONT.render('Score : '+str(20*life+gold), True, BLACK)
-    while running:
+    while running1:
         for event in pygame.event.get():
             if event.type==pygame.QUIT:
-                running=False
+                running1=False
         draw_map()
         Button1.draw()
         Button2.draw()
