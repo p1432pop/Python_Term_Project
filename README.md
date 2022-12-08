@@ -6,7 +6,13 @@
 ### Prerequisite
 * 파이썬 개발 환경
 * pygame, math, random packages
-
+* Defense.py 파일은 시스템 폰트 'arial'을 기준으로 작성되었습니다. 만약 해당 폰트가 설치되어 있지 않거나 오류가 발생한다면, 아래 설명을 따라 pygame에서 기본적으로 제공하는 'freesansbold' 폰트로 수정해주시길 바랍니다.
+* 수정 전
+     <img src="image/Caution1.png" alt="before" width="100%">
+ 
+* 수정 후
+     <img src="image/Caution2.png" alt="after" width="100%">
+     
 ### How To Play
 * 게임의 목표는 타워를 설치해 몬스터가 목표 지점에 도달하기 전에 섬멸시키는 것입니다.
 * 게임은 총 10 라운드로 진행되며 현재 라운드는 오른쪽 상단에 표기됩니다. 
