@@ -51,7 +51,7 @@ Round | Hp
 ### 
 
 ### Reference
-* 화면 오른쪽 버튼을 구현하기 위하여 아래 자료를 참고하였습니다.
+* Button Class 구현 참고
   * https://blog.naver.com/jwjung0907/222207701304
 * 본 프로젝트에서 사용한 모든 이미지의 출처는 [OpenGameArt](https://opengameart.org/)에 있습니다. 각 이미지에 대한 정보는 아래 링크에서 확인할 수 있습니다.
   * [BackGround](https://opengameart.org/content/grass-textures-tiles)
