@@ -1,9 +1,9 @@
-## Random Tower Defense
-### Basic Information
+# Random Tower Defense
+## Basic Information
 * 컴퓨터공학과 21101237 한정현
 * Open-Source를 활용한 디펜스 게임
 
-### Prerequisite
+## Prerequisite
 * 파이썬 개발 환경
 * pygame, math, random packages
 * Defense.py 파일은 시스템 폰트 'arial'을 기준으로 작성되었습니다. 만약 해당 폰트가 설치되어 있지 않거나 오류가 발생한다면, 아래 설명을 따라 pygame에서 기본적으로 제공하는 'freesansbold' 폰트로 수정해주시길 바랍니다.
@@ -13,7 +13,7 @@
 * 수정 후
      <img src="image/Caution2.png" alt="after" width="100%">
      
-### How To Play
+## How To Play
 * 게임의 목표는 타워를 설치해 몬스터가 목표 지점에 도달하기 전에 섬멸시키는 것입니다.
 * 게임은 총 10 라운드로 진행되며 현재 라운드는 오른쪽 상단에 표기됩니다. 
 * 게임을 실행하고 10초간 타워를 건설할 수 있는 시간이 주어집니다.
@@ -55,10 +55,10 @@ Round | Hp
 9 | 860
 10 | 1050
 
-### Playing Video
+## Playing Video
 * [Example]()
 
-### Reference
+## Reference
 * Button Class 구현 참고
   * https://blog.naver.com/jwjung0907/222207701304
 * 본 프로젝트에서 사용한 모든 이미지의 출처는 [OpenGameArt](https://opengameart.org/)에 있습니다. 각 이미지에 대한 정보는 아래 링크에서 확인할 수 있습니다.
@@ -70,12 +70,12 @@ Round | Hp
   * [Attack Motion](https://opengameart.org/content/bubble-explosion)
   * [Tower Information](https://opengameart.org/content/zeta-engine-ability-icons-part1)
 
-### LICENSE
+## LICENSE
 * Pygame is an open-source library licensed under the [GNU LGPL LICENSE v2.1](https://www.pygame.org/docs/LGPL.txt).
 * All Used Images are open-source images licensed under [OGA-BY 3.0 LICENSE](https://static.opengameart.org/OGA-BY-3.0.txt) and [CC-BY 3.0 LICENSE](https://creativecommons.org/licenses/by/3.0/).
   * OGA-BY 3.0 is a license based on CC-BY 3.0 that removes that license's restriction on technical measures that prevent redistribution of a work. You can get more information about [OGA-BY 3.0 LICENSE](https://www.pygame.org/docs/LGPL.txt) in the link.
 * This project is licensed under the GNU LGPL LICENSE v2.1.
 
-### Contact
+## Contact
 If you have any issues or comments, please contact me by e-mail below.
 * p1432pop@naver.com
